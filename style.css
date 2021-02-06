@@ -82,7 +82,8 @@ a {
 
 .home,
 .members,
-.contactUs {
+.contactUs,
+.shop {
     display: flex;
     padding: 20px 20px;
 }
@@ -162,16 +163,47 @@ a {
     flex-wrap: wrap;
     justify-content: space-between;
     background-color: var(--yellowLight);
+    flex-direction: row;
 }
 
 .footer img {
-    width: 100%;
+    width: 600px;
 }
   
 .footer-item {
     padding: 10px 40px;
     align-items: center;
 }
+
+/* FOOTER
+-------------------- */
+/* .footer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.footer-item {
+    display: flex;
+    width: 20%;
+    margin: 10px, 0px;
+    background-color: white;
+}
+
+.footer-three {
+    width: 80px;
+}
+
+.footer img,
+.footer-item p,
+.footer-item a {
+    padding: 5px 5px;
+    object-fit: cover;
+    overflow: hidden;
+    flex: 1;
+} */
 
 @media only screen and (max-width: 400px) {
     .profileImg img {

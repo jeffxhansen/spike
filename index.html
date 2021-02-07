@@ -4,6 +4,7 @@
         <meta charset='UTF-8'>
         <meta name='viewport' content='width=device-width, 
             initial-scale=1.0, maximum-scale=1.0' />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
         <title>Birdie Spike</title>
         <link rel='stylesheet' href='style.css'/>
     </head>
@@ -13,12 +14,33 @@
             <h1 class='title'>Birdie Spike Official Website</h1>
         </div>
 
-        <div class='navbar'>
-            <div><a class='home active' href='index.html'>Home</a></div>
+        <nav class='navbar navbar-expand-sm navbar-dark'>
+            <!-- Toggler/collapsibe Button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class='home active nav-link' href='index.html'><span class='trevDawg'>Home</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class='members nav-link' href='members.html'><span class='trevDawg'></span>Members</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class='contactUs nav-link' href='contactUs.html'><span class='trevDawg'></span>Information</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class='shop nav-link' href='shop.html'><span class='trevDawg'></span>Shop</span></a>
+                  </li>
+                </ul>
+              </div>
+            <!-- <div><a class='home active' href='index.html'>Home</a></div>
             <div><a class='members' href='members.html'>Members</a></div>
             <div><a class='contactUs' href='contactUs.html'>Information</a></div>
-            <div><a class='shop' href='shop.html'>Shop</a></div>
-        </div>
+            <div><a class='shop' href='shop.html'>Shop</a></div> -->
+        </nav>
 
         <div class='page'>
             <div class='content'>

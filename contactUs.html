@@ -4,65 +4,85 @@
         <meta charset='UTF-8'>
         <meta name='viewport' content='width=device-width, 
             initial-scale=1.0, maximum-scale=1.0' />
+            
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
         <title>Birdie Spike</title>
         <link rel='stylesheet' href='style.css'/>
     </head>
     <body>
-        <div class='fullsite'>
-            <div class='section header'>
-                <img src='/images/logo_square.png' width=100/>
-                <h1 class='title'>Birdie Spike Official Website</h1>
-            </div>
-    
-            <div class='section navbar'>
-                <div><a class='home' href='index.html'>Home</a></div>
-                <div><a class='members' href='members.html'>Members</a></div>
-                <div><a class='contactUs active' href='contactUs.html'>Information</a></div>
-                <div><a class='shop' href='shop.html'>Shop</a></div>
-            </div>
-    
-            <div class='section page'>
-                <div class='content'>
-                    <div class='words'>
-                        <h1>Club Information</h1>
-                        <p>We are a chill friendly group, so please feel free to play spikeball with us! </p>
-            
-                        <ul>
-                            <li><strong>Where:</strong> Herriman Park</li>
-                            <li><strong>When:</strong> Tuesdays and Thursday at 6:30pm</li>
-                            <li><Strong>What to bring:</Strong> Yourself, friends, and a set if you want (pro set is preferred)</li>
-                        </ul>
-    
-                        <p><strong>For questions: </strong>plase call <em>Jeff Hansen</em> at (208) 777-5934 :)</em></p>
-                    </div>
+        <div class='section header'>
+            <img src='/images/logo_square.png' width=100/>
+            <h1 class='title'>Birdie Spike Official Website</h1>
+        </div>
 
-                    <div class='person rsvp' style>
-                        <div class='profileImg'><img src='/images/rsvp.png'/></div>
-                        <div class='profileInfo'>
-                            <h1><strong>RSVP Here</strong></h2>
-                            <div class='rsvp-forum'><ul>
-                                <div><li>Name: </li></div>
-                                <div><li>Number of people: </li></div>
-                                <div><li>Email: </li></div>
-                                <button>Submit</button>
-                            </ul></div>
-                        </div>
+        <nav class='navbar navbar-expand-sm navbar-dark'>
+            <!-- Toggler/collapsibe Button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class='home nav-link' href='index.html'><span class='trevDawg'>Home</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class='members nav-link' href='members.html'><span class='trevDawg'></span>Members</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class='contactUs active nav-link' href='contactUs.html'><span class='trevDawg'></span>Information</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class='shop nav-link' href='shop.html'><span class='trevDawg'></span>Shop</span></a>
+                  </li>
+                </ul>
+              </div>
+            <!-- <div><a class='home active' href='index.html'>Home</a></div>
+            <div><a class='members' href='members.html'>Members</a></div>
+            <div><a class='contactUs' href='contactUs.html'>Information</a></div>
+            <div><a class='shop' href='shop.html'>Shop</a></div> -->
+        </nav>
+
+        <div class='section page'>
+            <div class='content'>
+                <div class='words'>
+                    <h1>Club Information</h1>
+                    <p>We are a chill friendly group, so please feel free to play spikeball with us! </p>
+        
+                    <ul>
+                        <li><strong>Where:</strong> Herriman Park</li>
+                        <li><strong>When:</strong> Tuesdays and Thursday at 6:30pm</li>
+                        <li><Strong>What to bring:</Strong> Yourself, friends, and a set if you want (pro set is preferred)</li>
+                    </ul>
+
+                    <p><strong>For questions: </strong>plase call <em>Jeff Hansen</em> at (208) 777-5934 :)</em></p>
+                </div>
+
+                <div class='person rsvp' style>
+                    <div class='profileImg'><img src='/images/rsvp.png'/></div>
+                    <div class='profileInfo'>
+                        <h1><strong>RSVP Here</strong></h2>
+                        <div class='rsvp-forum'><ul>
+                            <div><li>Name: </li></div>
+                            <div><li>Number of people: </li></div>
+                            <div><li>Email: </li></div>
+                            <button>Submit</button>
+                        </ul></div>
                     </div>
                 </div>
             </div>
-            
-            <footer class="section footer">
-                <div class='footer-item footer-one'>
-                    <p>@2021</br>By: Jeff Hansen</p>
-                </div>
-                <div class='footer-item footer-two'>
-                    <img src='/images/logo_long.png' height=80/>
-                </div>
-                <div class='footer-item footer-three'>
-                    <p>my <a href='https://github.com/jeffxhansen/spike.git'>Github</a> Repo</p>
-                </div>
+        </div>
+        
+        <footer class="section footer">
+            <div class='footer-item footer-one'>
+                <p>@2021</br>By: Jeff Hansen</p>
             </div>
-
+            <div class='footer-item footer-two'>
+                <img src='/images/logo_long.png' height=80/>
+            </div>
+            <div class='footer-item footer-three'>
+                <p>my <a href='https://github.com/jeffxhansen/spike.git'>Github</a> Repo</p>
+            </div>
         </div>
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
